@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		097D04F41301B291FDA0303F /* Pods_OTFTemplateBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A147A15BE93D1E4BDCED209 /* Pods_OTFTemplateBox.framework */; };
 		142F11A82626A6CA0045A5D2 /* AppSysParameters.yml in Resources */ = {isa = PBXBuildFile; fileRef = 142F11A02626A5BB0045A5D2 /* AppSysParameters.yml */; };
 		145143C926789AC700B58834 /* AppSysParameters.yml in Resources */ = {isa = PBXBuildFile; fileRef = 145143C826789AC700B58834 /* AppSysParameters.yml */; };
 		145C9F9D266FA03C005A88E7 /* HKSampleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C9F9C266FA03C005A88E7 /* HKSampleTypes.swift */; };
@@ -18,18 +17,18 @@
 		14FCA636262418E1001F3FDB /* OTFTemplateBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FCA62C262418E1001F3FDB /* OTFTemplateBox.framework */; };
 		14FCA63B262418E1001F3FDB /* OTFTemplateBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA63A262418E1001F3FDB /* OTFTemplateBoxTests.swift */; };
 		14FCA63D262418E1001F3FDB /* OTFTemplateBox_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FCA62F262418E1001F3FDB /* OTFTemplateBox_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14FCA64A26241924001F3FDB /* OTFLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA64926241924001F3FDB /* OTFLogs.swift */; };
 		14FCA64F262419F8001F3FDB /* OTFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA64E262419F8001F3FDB /* OTFConfig.swift */; };
 		14FCA65726241B72001F3FDB /* OTFConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA65626241B72001F3FDB /* OTFConfigManager.swift */; };
 		14FCA6A8262422E5001F3FDB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6A7262422E5001F3FDB /* Constants.swift */; };
 		14FCA6C026244797001F3FDB /* YAMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6BF26244797001F3FDB /* YAMLManager.swift */; };
 		14FCA6C52624497A001F3FDB /* OTFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6C42624497A001F3FDB /* OTFError.swift */; };
 		14FCA6D4262455D1001F3FDB /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6D3262455D1001F3FDB /* Bundle+Extensions.swift */; };
-		23A8E3A90318217D0B877211 /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E81AAA95D85E077A00A5F27 /* Pods_TestApp.framework */; };
-		6D04FE073D61520D6943A640 /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B3457A9EAD79150DB3918F /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */; };
+		61514711489611AE34C78ADC /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */; };
 		84CDE41326EFD763000E7B5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84CDE41226EFD763000E7B5B /* README.md */; };
+		AC023244981A665E8A09E850 /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */; };
 		CE482CBC262C24E800C0A2D5 /* OTFTemplateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE482CBB262C24E800C0A2D5 /* OTFTemplateBox.swift */; };
 		CE482CC6262C252F00C0A2D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE482CC5262C252F00C0A2D5 /* ContentView.swift */; };
+		D9A778901F0412AA8D92FFB3 /* Pods_OTFTemplateBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DF67D917641D5AD820611C /* Pods_OTFTemplateBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox_OTFTemplateBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D45CFF8C93174DCC7D3A0DC /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		142F11A02626A5BB0045A5D2 /* AppSysParameters.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = AppSysParameters.yml; sourceTree = "<group>"; };
 		145143C826789AC700B58834 /* AppSysParameters.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = AppSysParameters.yml; sourceTree = "<group>"; };
 		145C9F9C266FA03C005A88E7 /* HKSampleTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleTypes.swift; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		14FCA635262418E1001F3FDB /* OTFTemplateBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTFTemplateBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FCA63A262418E1001F3FDB /* OTFTemplateBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFTemplateBoxTests.swift; sourceTree = "<group>"; };
 		14FCA63C262418E1001F3FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14FCA64926241924001F3FDB /* OTFLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFLogs.swift; sourceTree = "<group>"; };
 		14FCA64E262419F8001F3FDB /* OTFConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFConfig.swift; sourceTree = "<group>"; };
 		14FCA65626241B72001F3FDB /* OTFConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFConfigManager.swift; sourceTree = "<group>"; };
 		14FCA68B26241F61001F3FDB /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,19 +71,17 @@
 		14FCA6BF26244797001F3FDB /* YAMLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAMLManager.swift; sourceTree = "<group>"; };
 		14FCA6C42624497A001F3FDB /* OTFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFError.swift; sourceTree = "<group>"; };
 		14FCA6D3262455D1001F3FDB /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
-		15181FD092DC4CDE69D83437 /* Pods-OTFTemplateBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.release.xcconfig"; sourceTree = "<group>"; };
-		4A363C1F6693449B93FF6552 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		66B3457A9EAD79150DB3918F /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox_OTFTemplateBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6844FC0011843B1A4C80E97D /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; sourceTree = "<group>"; };
-		7E81AAA95D85E077A00A5F27 /* Pods_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663DC53BCAC4C0B13A13343D /* Pods-OTFTemplateBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.release.xcconfig"; sourceTree = "<group>"; };
+		76C8643DC915E822E1984E23 /* Pods-OTFTemplateBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.debug.xcconfig"; sourceTree = "<group>"; };
 		84CDE41226EFD763000E7B5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8E6E6BD3FA3774211E828185 /* Pods-OTFTemplateBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.debug.xcconfig"; sourceTree = "<group>"; };
-		9A147A15BE93D1E4BDCED209 /* Pods_OTFTemplateBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE482CBA262C24E800C0A2D5 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE482CBB262C24E800C0A2D5 /* OTFTemplateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFTemplateBox.swift; sourceTree = "<group>"; };
 		CE482CC5262C252F00C0A2D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7186E511DE598B438C37B5E /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
-		EC09C98EC4DD02365739D629 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DF67D917641D5AD820611C /* Pods_OTFTemplateBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E904FC2017895FDCCA89B629 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		F826B09300A1BE9037E02BA8 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDC3701EAC706D6C97CF3D98 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097D04F41301B291FDA0303F /* Pods_OTFTemplateBox.framework in Frameworks */,
+				D9A778901F0412AA8D92FFB3 /* Pods_OTFTemplateBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FCA636262418E1001F3FDB /* OTFTemplateBox.framework in Frameworks */,
-				6D04FE073D61520D6943A640 /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework in Frameworks */,
+				AC023244981A665E8A09E850 /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A8E3A90318217D0B877211 /* Pods_TestApp.framework in Frameworks */,
+				61514711489611AE34C78ADC /* Pods_TestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +131,7 @@
 				14FCA639262418E1001F3FDB /* OTFTemplateBoxTests */,
 				14FCA62D262418E1001F3FDB /* Products */,
 				B1782EF8E14DADFC59F0C1F2 /* Pods */,
-				4F43A92FEEFD811A5AA8D7FB /* Frameworks */,
+				95D871C77ABADAB7CFB1D349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,7 +151,6 @@
 				14AC58D8262550FC00A190E9 /* Extensions */,
 				14FCA6AC2624256E001F3FDB /* YAML */,
 				14FCA64D262419E6001F3FDB /* Models */,
-				14FCA64826241917001F3FDB /* Logs */,
 				14FCA62F262418E1001F3FDB /* OTFTemplateBox_Framework.h */,
 				14FCA630262418E1001F3FDB /* Info.plist */,
 			);
@@ -168,14 +165,6 @@
 				14FCA63C262418E1001F3FDB /* Info.plist */,
 			);
 			path = OTFTemplateBoxTests;
-			sourceTree = "<group>";
-		};
-		14FCA64826241917001F3FDB /* Logs */ = {
-			isa = PBXGroup;
-			children = (
-				14FCA64926241924001F3FDB /* OTFLogs.swift */,
-			);
-			path = Logs;
 			sourceTree = "<group>";
 		};
 		14FCA64D262419E6001F3FDB /* Models */ = {
@@ -202,12 +191,12 @@
 			path = YAML;
 			sourceTree = "<group>";
 		};
-		4F43A92FEEFD811A5AA8D7FB /* Frameworks */ = {
+		95D871C77ABADAB7CFB1D349 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A147A15BE93D1E4BDCED209 /* Pods_OTFTemplateBox.framework */,
-				66B3457A9EAD79150DB3918F /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */,
-				7E81AAA95D85E077A00A5F27 /* Pods_TestApp.framework */,
+				E6DF67D917641D5AD820611C /* Pods_OTFTemplateBox.framework */,
+				0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */,
+				8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,12 +204,12 @@
 		B1782EF8E14DADFC59F0C1F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8E6E6BD3FA3774211E828185 /* Pods-OTFTemplateBox.debug.xcconfig */,
-				15181FD092DC4CDE69D83437 /* Pods-OTFTemplateBox.release.xcconfig */,
-				EC09C98EC4DD02365739D629 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */,
-				6844FC0011843B1A4C80E97D /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */,
-				4A363C1F6693449B93FF6552 /* Pods-TestApp.debug.xcconfig */,
-				E7186E511DE598B438C37B5E /* Pods-TestApp.release.xcconfig */,
+				76C8643DC915E822E1984E23 /* Pods-OTFTemplateBox.debug.xcconfig */,
+				663DC53BCAC4C0B13A13343D /* Pods-OTFTemplateBox.release.xcconfig */,
+				0D45CFF8C93174DCC7D3A0DC /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */,
+				F826B09300A1BE9037E02BA8 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */,
+				FDC3701EAC706D6C97CF3D98 /* Pods-TestApp.debug.xcconfig */,
+				E904FC2017895FDCCA89B629 /* Pods-TestApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -253,7 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FCA640262418E1001F3FDB /* Build configuration list for PBXNativeTarget "OTFTemplateBox" */;
 			buildPhases = (
-				DFE74AEA8917842392E4D601 /* [CP] Check Pods Manifest.lock */,
+				68B1CBB69F61A96FCC108A22 /* [CP] Check Pods Manifest.lock */,
 				14FCA627262418E1001F3FDB /* Headers */,
 				14FCA628262418E1001F3FDB /* Sources */,
 				14FCA629262418E1001F3FDB /* Frameworks */,
@@ -273,11 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FCA643262418E1001F3FDB /* Build configuration list for PBXNativeTarget "OTFTemplateBoxTests" */;
 			buildPhases = (
-				449A3A5CDB5B745928611F9B /* [CP] Check Pods Manifest.lock */,
+				AE51EB4E8D602BA1F8F9D934 /* [CP] Check Pods Manifest.lock */,
 				14FCA631262418E1001F3FDB /* Sources */,
 				14FCA632262418E1001F3FDB /* Frameworks */,
 				14FCA633262418E1001F3FDB /* Resources */,
-				833B54B2B5BEF92140F5C18B /* [CP] Embed Pods Frameworks */,
+				CE740BD63F2BB105A70E0652 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,7 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FCA69C26241F62001F3FDB /* Build configuration list for PBXNativeTarget "TestApp" */;
 			buildPhases = (
-				23846151C3126863D956E048 /* [CP] Check Pods Manifest.lock */,
+				DD37A2E1AC7419B231F199E0 /* [CP] Check Pods Manifest.lock */,
 				14FCA68726241F61001F3FDB /* Sources */,
 				14FCA68826241F61001F3FDB /* Frameworks */,
 				14FCA68926241F61001F3FDB /* Resources */,
@@ -397,68 +386,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		23846151C3126863D956E048 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		449A3A5CDB5B745928611F9B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OTFTemplateBox-OTFTemplateBoxTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		833B54B2B5BEF92140F5C18B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DFE74AEA8917842392E4D601 /* [CP] Check Pods Manifest.lock */ = {
+		68B1CBB69F61A96FCC108A22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -480,6 +408,67 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AE51EB4E8D602BA1F8F9D934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTFTemplateBox-OTFTemplateBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE740BD63F2BB105A70E0652 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD37A2E1AC7419B231F199E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -491,7 +480,6 @@
 				145C9FA2266FA061005A88E7 /* OTFConfigManagerProtocol.swift in Sources */,
 				14FCA65726241B72001F3FDB /* OTFConfigManager.swift in Sources */,
 				14FCA64F262419F8001F3FDB /* OTFConfig.swift in Sources */,
-				14FCA64A26241924001F3FDB /* OTFLogs.swift in Sources */,
 				14AC58E7262556E500A190E9 /* ColorStyler.swift in Sources */,
 				14AC58DA2625510D00A190E9 /* String+Extensions.swift in Sources */,
 				14FCA6C026244797001F3FDB /* YAMLManager.swift in Sources */,
@@ -659,7 +647,7 @@
 		};
 		14FCA641262418E1001F3FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E6E6BD3FA3774211E828185 /* Pods-OTFTemplateBox.debug.xcconfig */;
+			baseConfigurationReference = 76C8643DC915E822E1984E23 /* Pods-OTFTemplateBox.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -688,7 +676,7 @@
 		};
 		14FCA642262418E1001F3FDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15181FD092DC4CDE69D83437 /* Pods-OTFTemplateBox.release.xcconfig */;
+			baseConfigurationReference = 663DC53BCAC4C0B13A13343D /* Pods-OTFTemplateBox.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -716,7 +704,7 @@
 		};
 		14FCA644262418E1001F3FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC09C98EC4DD02365739D629 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */;
+			baseConfigurationReference = 0D45CFF8C93174DCC7D3A0DC /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -738,7 +726,7 @@
 		};
 		14FCA645262418E1001F3FDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6844FC0011843B1A4C80E97D /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */;
+			baseConfigurationReference = F826B09300A1BE9037E02BA8 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -760,7 +748,7 @@
 		};
 		14FCA69D26241F62001F3FDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A363C1F6693449B93FF6552 /* Pods-TestApp.debug.xcconfig */;
+			baseConfigurationReference = FDC3701EAC706D6C97CF3D98 /* Pods-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -782,7 +770,7 @@
 		};
 		14FCA69E26241F62001F3FDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7186E511DE598B438C37B5E /* Pods-TestApp.release.xcconfig */;
+			baseConfigurationReference = E904FC2017895FDCCA89B629 /* Pods-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;

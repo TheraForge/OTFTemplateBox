@@ -34,13 +34,14 @@ OF SUCH DAMAGE.
 
 import UIKit
 import OTFCareKitUI
+import OTFUtilities
 
 struct ColorStyler: OCKColorStyler {
     static var label: UIColor {
         if let colorText = OTFConfigManager.shared.getValue(for: "label") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find label color, use default")
+        OTFLog("Cannot find label color, use default")
         return .label
     }
 
@@ -48,7 +49,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "secondaryLabel") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find secondaryLabel color, use default")
+        OTFLog("Cannot find secondaryLabel color, use default")
         return .secondaryLabel
     }
 
@@ -56,7 +57,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "tertiaryLabel") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find tertiaryLabel color, use default")
+        OTFLog("Cannot find tertiaryLabel color, use default")
         return .tertiaryLabel
     }
 
@@ -64,7 +65,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customBackground") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customBackground color, use default")
+        OTFLog("Cannot find customBackground color, use default")
         return .systemBackground
     }
 
@@ -72,7 +73,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "secondaryCustomBackground") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find secondaryCustomBackground color, use default")
+        OTFLog("Cannot find secondaryCustomBackground color, use default")
         return .secondarySystemBackground
     }
 
@@ -80,7 +81,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGroupedBackground") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGroupedBackground color, use default")
+        OTFLog("Cannot find customGroupedBackground color, use default")
         return .systemGroupedBackground
     }
 
@@ -88,7 +89,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "secondaryCustomGroupedBackground") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find secondaryCustomGroupedBackground color, use default")
+        OTFLog("Cannot find secondaryCustomGroupedBackground color, use default")
         return .secondarySystemGroupedBackground
     }
 
@@ -96,7 +97,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "tertiaryCustomGroupedBackground") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find tertiaryCustomGroupedBackground color, use default")
+        OTFLog("Cannot find tertiaryCustomGroupedBackground color, use default")
         return .tertiarySystemGroupedBackground
     }
 
@@ -104,7 +105,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "separator") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find separator color, use default")
+        OTFLog("Cannot find separator color, use default")
         return .separator
     }
 
@@ -112,7 +113,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customFill") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customFill color, use default")
+        OTFLog("Cannot find customFill color, use default")
         return .tertiarySystemFill
     }
 
@@ -120,7 +121,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "secondaryCustomFill") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find secondaryCustomFill color, use default")
+        OTFLog("Cannot find secondaryCustomFill color, use default")
         return .secondarySystemFill
     }
 
@@ -128,7 +129,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "tertiaryCustomFill") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find tertiaryCustomFill color, use default")
+        OTFLog("Cannot find tertiaryCustomFill color, use default")
         return .tertiarySystemFill
     }
 
@@ -136,7 +137,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "quaternaryCustomFill") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find quaternaryCustomFill color, use default")
+        OTFLog("Cannot find quaternaryCustomFill color, use default")
         return .quaternarySystemFill
     }
 
@@ -144,7 +145,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customBlue") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customBlue color, use default")
+        OTFLog("Cannot find customBlue color, use default")
         return .systemBlue
     }
 
@@ -152,7 +153,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGray") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGray color, use default")
+        OTFLog("Cannot find customGray color, use default")
         return .systemGray
     }
 
@@ -160,7 +161,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGray2") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGray2 color, use default")
+        OTFLog("Cannot find customGray2 color, use default")
         return .systemGray2
     }
 
@@ -168,7 +169,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGray3") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGray3 color, use default")
+        OTFLog("Cannot find customGray3 color, use default")
         return .systemGray3
     }
 
@@ -176,7 +177,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGray4") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGray4 color, use default")
+        OTFLog("Cannot find customGray4 color, use default")
         return .systemGray4
     }
 
@@ -184,7 +185,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "customGray5") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find customGray5 color, use default")
+        OTFLog("Cannot find customGray5 color, use default")
         return .systemGray5
     }
 
@@ -192,7 +193,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "white") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find white color, use default")
+        OTFLog("Cannot find white color, use default")
         return .white
     }
 
@@ -200,7 +201,7 @@ struct ColorStyler: OCKColorStyler {
         if let colorText = OTFConfigManager.shared.getValue(for: "black") {
             return colorText.color()
         }
-        OTFLogs.log(content: "Cannot find black color, use default")
+        OTFLog("Cannot find black color, use default")
         return .black
     }
     static var clear: UIColor { .clear }

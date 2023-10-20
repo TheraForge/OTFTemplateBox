@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/TheraForge/OTFTemplateBox'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hippocrates Technologies' => 'hippocratestech-dev@googlegroups.com' }
-  s.source           = { :git => 'https://github.com/HippocratesTech/OTFTemplateBox.git', :branch => 'main' }
+  s.source           = { :git => 'https://github.com/TheraForge/OTFTemplateBox.git', :branch => 'main' }
   s.source_files = 'OTFTemplateBox/**/*.{h,m,c,swift}'
   s.exclude_files = 'OTFTemplateBox/Pods/**/*', 'OTFTemplateBox/info.plist', 'OTFTemplateBox/Support Files/**/*.{h,m,swift}'
   s.ios.deployment_target = '13.0'

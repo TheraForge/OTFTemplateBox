@@ -33,6 +33,7 @@ OF SUCH DAMAGE.
  */
 
 import UIKit
+import OTFUtilities
 
 struct FontStyler {
     static var largeTitle: UIFont {
@@ -42,10 +43,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of largeTitleFontName")
+            OTFLog("Cannot init font with name of largeTitleFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find largeTitleFontName or largeTitleFontSize, use default")
+        OTFLog("Cannot find largeTitleFontName or largeTitleFontSize, use default")
         return defaultFont
     }
 
@@ -56,10 +57,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of titleFontName")
+            OTFLog("Cannot init font with name of titleFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find titleFontName or titleFontSize, use default")
+        OTFLog("Cannot find titleFontName or titleFontSize, use default")
         return defaultFont
     }
 
@@ -70,10 +71,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of title2FontName")
+            OTFLog("Cannot init font with name of title2FontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find title2FontName or title2FontSize, use default")
+        OTFLog("Cannot find title2FontName or title2FontSize, use default")
         return defaultFont
     }
 
@@ -84,10 +85,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of title3FontName")
+            OTFLog("Cannot init font with name of title3FontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find title3FontName or title3FontSize, use default")
+        OTFLog("Cannot find title3FontName or title3FontSize, use default")
         return defaultFont
     }
 
@@ -98,10 +99,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of headlineFontName")
+            OTFLog("Cannot init font with name of headlineFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find headlineFontName or headlineFontSize, use default")
+        OTFLog("Cannot find title3FontName or title3FontSize, use default")
         return defaultFont
     }
 
@@ -112,10 +113,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of subheadlineFontName")
+            OTFLog("Cannot init font with name of subheadlineFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find subheadlineFontName or subheadlineFontSize, use default")
+        OTFLog("Cannot find subheadlineFontName or subheadlineFontSize, use default")
         return defaultFont
     }
 
@@ -126,10 +127,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of bodyFontName")
+            OTFLog("Cannot init font with name of bodyFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find bodyFontName or bodyFontSize, use default")
+        OTFLog("Cannot find bodyFontName or bodyFontSize, use default")
         return defaultFont
     }
 
@@ -140,10 +141,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of calloutFontName")
+            OTFLog("Cannot init font with name of calloutFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find calloutFontName or calloutFontSize, use default")
+        OTFLog("Cannot find calloutFontName or calloutFontSize, use default")
         return defaultFont
     }
 
@@ -154,10 +155,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of captionFontName")
+            OTFLog("Cannot init font with name of calloutFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find captionFontName or captionFontSize, use default")
+        OTFLog("Cannot find captionFontName or captionFontSize, use default")
         return defaultFont
     }
 
@@ -168,10 +169,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of caption2FontName")
+            OTFLog("Cannot init font with name of caption2FontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find caption2FontName or caption2FontSize, use default")
+        OTFLog("Cannot find caption2FontName or caption2FontSize, use default")
         return defaultFont
     }
 
@@ -182,10 +183,10 @@ struct FontStyler {
             if let font = UIFont(name: fontName, size: fontSizeText.floatValue) {
                 return font
             }
-            OTFLogs.log(content: "Cannot init font with name: \(fontName) of footnoteFontName")
+            OTFLog("Cannot init font with name of footnoteFontName: %{public}@ ", fontName)
             return defaultFont
         }
-        OTFLogs.log(content: "Cannot find footnoteFontName or footnoteFontSize, use default")
+        OTFLog("Cannot find footnoteFontName or footnoteFontSize, use default")
         return defaultFont
     }
 }

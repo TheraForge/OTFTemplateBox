@@ -9,6 +9,29 @@ Every key must be associated to a value but the app will **not crash** if the va
 
 Please refer to the [OTFToolBox Readme](../../../OTFToolBox/blob/main/README.md) for the full details of the configuration file.
 
+## Change Log
+<details open>
+<summary>Release 1.0.3-beta</summary>
+  <ul>
+    <li>Added new OTFUtilities pod</li>
+    <li>Added Watch OS support</li>
+  </ul>
+</details>
+
+<details >
+<summary>Release 1.0.2-beta</summary>
+<ul>
+<li>Updated the dependecies of the internal pods to better compensate the Care and Health flags in schemes</li>
+</ul>
+</details>
+
+<details>
+<summary>Release 1.0.0-beta</summary>
+<ul>
+<li>First beta release of the pods</li>
+</ul>
+</details>
+
 ## Table of Contents
 * [Overview](#Overview)
 * [Installation](#Installation)

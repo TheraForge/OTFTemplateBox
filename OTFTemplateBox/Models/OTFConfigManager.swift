@@ -34,6 +34,7 @@ OF SUCH DAMAGE.
 
 import UIKit
 import OTFToolBoxCore
+import OTFUtilities
 
 public class OTFConfigManager: OTFConfigManagerProtocol {
     public static let shared: OTFConfigManagerProtocol = OTFConfigManager()
@@ -46,7 +47,7 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
     public func loadDataFromFile(_ bundle: Bundle? = nil) throws {
         let mainBundle = bundle ?? Bundle(for: type(of: self))
         guard let fileUrlString = mainBundle.path(forResource: Constants.sysConfigFileName, ofType: nil) else {
-            OTFLogs.log(content: "file \(Constants.sysConfigFileName) cannot be found")
+            OTFLog("File cannot found: %{public}@ ", Constants.sysConfigFileName)
             throw OTFError.fileNotFound(message: Constants.sysConfigFileName)
         }
         let fileUrl = URL(fileURLWithPath: fileUrlString)
@@ -130,7 +131,7 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
     }
 
     func testConfig() {
-        OTFLogs.log(content: "====Start testing====")
+        OTFLog("====Start testing====")
         // test color
         _ = ColorStyler.label
         _ = ColorStyler.secondaryLabel
@@ -166,6 +167,6 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
         _ = FontStyler.caption
         _ = FontStyler.footnote
         _ = FontStyler.caption2
-        OTFLogs.log(content: "====End testing====")
+        OTFLog("====End testing====")
     }
 }

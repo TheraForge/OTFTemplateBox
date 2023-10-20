@@ -34,14 +34,15 @@
 # platform :ios, '9.0'
 
 source 'https://cdn.cocoapods.org'
-source 'https://github.com/HippocratesTech/OTFCocoapodSpecs'
+source 'https://github.com/TheraForge/OTFCocoapodSpecs'
 
 target 'OTFTemplateBox' do
   use_frameworks!
   
   pod 'Yams' 
-  pod 'OTFCareKitUI'
-  pod 'OTFToolBox/Core'
+  pod 'OTFCareKitUI', '2.0.2-beta.3'
+  pod 'OTFToolBoxCore', '1.0.3-beta'
+  pod 'OTFUtilities', '1.0.0-beta'
 
   target 'OTFTemplateBoxTests' do
     # Pods for testing
