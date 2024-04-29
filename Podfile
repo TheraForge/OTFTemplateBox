@@ -38,16 +38,25 @@ source 'https://github.com/TheraForge/OTFCocoapodSpecs'
 
 target 'OTFTemplateBox' do
   use_frameworks!
-  
+  platform :ios, '14.6'
   pod 'Yams' 
-  pod 'OTFCareKitUI', '2.0.2-beta.3'
-  pod 'OTFToolBoxCore', '1.0.3-beta'
-  pod 'OTFUtilities', '1.0.0-beta'
-
+  pod 'OTFCareKitUI', '2.0.2-beta.4'
+  pod 'OTFToolBoxCore', '1.0.4-beta'
+  pod 'OTFUtilities', '1.0.1-beta'
+  pod 'OTFDesignSystem', '1.0.0'
+  
   target 'OTFTemplateBoxTests' do
     # Pods for testing
   end
 
+end
+
+target 'OTFTemplateBoxWatch' do
+  # Pods for testing
+  use_frameworks!
+  platform :watchos, '8.0'
+  pod 'OTFToolBoxCore', '1.0.4-beta'
+  pod 'OTFUtilities', '1.0.1-beta'
 end
 
 target 'TestApp' do

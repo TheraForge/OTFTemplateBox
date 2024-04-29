@@ -11,10 +11,18 @@ Please refer to the [OTFToolBox Readme](../../../OTFToolBox/blob/main/README.md)
 
 ## Change Log
 <details open>
+<summary>Release 1.0.4-beta</summary>
+  <ul>
+    <li>Added new OTFDesignSystem pod</li>
+    <li>Added watchOS target</li>
+  </ul>
+</details>
+
+<details >
 <summary>Release 1.0.3-beta</summary>
   <ul>
     <li>Added new OTFUtilities pod</li>
-    <li>Added Watch OS support</li>
+    <li>Added watchOS support</li>
   </ul>
 </details>
 
@@ -40,7 +48,7 @@ Please refer to the [OTFToolBox Readme](../../../OTFToolBox/blob/main/README.md)
 ## Overview <a name="Overview"></a>
 TheraForge's OTFTemplateBox framework provides the Yaml file, where you can customize the requirements of your Digital Health Applications. The OTFTemplateBox framework has pre-defined functions which reads the Yaml file and designs your application accordingly.
 This framework provides an app template library based on a yaml file for customization of constants, texts, images, links, styles, etc.
-The OTFTemplateBox framework is dependent on the [Yams](https://github.com/jpsim/Yams), [OTFCareKitUI](../../../OTFCareKit) and [OTFToolBoxCore](../../../OTFToolBox) frameworks.
+The OTFTemplateBox framework is dependent on the [Yams](https://github.com/jpsim/Yams), [OTFCareKitUI](../../../OTFCareKit), [OTFToolBoxCore](../../../OTFToolBox) and [OTFDesignSystem](../../../OTFDesignSystem) frameworks.
 
 ## Installation <a name="Installation"></a>
 

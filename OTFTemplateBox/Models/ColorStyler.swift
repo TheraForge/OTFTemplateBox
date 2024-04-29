@@ -32,6 +32,8 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 OF SUCH DAMAGE.
  */
 
+#if os(iOS)
+
 import UIKit
 import OTFCareKitUI
 import OTFUtilities
@@ -206,3 +208,4 @@ struct ColorStyler: OCKColorStyler {
     }
     static var clear: UIColor { .clear }
 }
+#endif

@@ -34,7 +34,6 @@ OF SUCH DAMAGE.
 
 import SwiftUI
 
-
 @main
 struct OTFTemplateBox: App {
     var body: some Scene {

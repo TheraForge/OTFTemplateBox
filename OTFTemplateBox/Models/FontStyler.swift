@@ -32,10 +32,12 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 OF SUCH DAMAGE.
  */
 
+#if os(iOS)
+
 import UIKit
 import OTFUtilities
 
-struct FontStyler {
+enum FontStyler {
     static var largeTitle: UIFont {
         let defaultFont = UIFont.systemFont(ofSize: 20, weight: .regular)
         if let fontName = OTFConfigManager.shared.getValue(for: "largeTitleFontName"),
@@ -190,3 +192,5 @@ struct FontStyler {
         return defaultFont
     }
 }
+
+#endif

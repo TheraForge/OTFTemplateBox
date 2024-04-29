@@ -33,6 +33,7 @@ OF SUCH DAMAGE.
  */
 
 import Foundation
+#if os(iOS)
 import Yams
 
 public class YAMLManager {
@@ -46,3 +47,5 @@ public class YAMLManager {
         return model
     }
 }
+
+#endif
