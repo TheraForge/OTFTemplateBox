@@ -32,7 +32,9 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 OF SUCH DAMAGE.
  */
 
+#if os(iOS)
 import UIKit
+#endif
 import OTFToolBoxCore
 
 public protocol OTFConfigManagerProtocol {
@@ -41,7 +43,9 @@ public protocol OTFConfigManagerProtocol {
     func loadDatabaseFromFile() -> Bool
     func offset() -> CGFloat?
     func startDate() -> Date?
+#if os(iOS)
     func tintColor() -> UIColor?
+#endif
     func defaultOTFProtectionLevel() -> OTFProtectionLevel?
     func healthKitPermissionIdentifiers(for type: HKSampleTypes) -> [String]?
 }

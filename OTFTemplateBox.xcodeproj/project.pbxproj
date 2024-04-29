@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,8 +23,22 @@
 		14FCA6C026244797001F3FDB /* YAMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6BF26244797001F3FDB /* YAMLManager.swift */; };
 		14FCA6C52624497A001F3FDB /* OTFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6C42624497A001F3FDB /* OTFError.swift */; };
 		14FCA6D4262455D1001F3FDB /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6D3262455D1001F3FDB /* Bundle+Extensions.swift */; };
+		428ADC4F0914510D975A9B6F /* Pods_OTFTemplateBoxWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077A349C1B33BE635FFC9E93 /* Pods_OTFTemplateBoxWatch.framework */; };
 		61514711489611AE34C78ADC /* Pods_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */; };
 		84CDE41326EFD763000E7B5B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84CDE41226EFD763000E7B5B /* README.md */; };
+		909FA4A92B4BD4B600B7B98C /* OTFTemplateBoxWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 909FA4A82B4BD4B600B7B98C /* OTFTemplateBoxWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		909FA4AD2B4BD50300B7B98C /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6D3262455D1001F3FDB /* Bundle+Extensions.swift */; };
+		909FA4AE2B4BD50700B7B98C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC58D92625510D00A190E9 /* String+Extensions.swift */; };
+		909FA4B02B4BD51200B7B98C /* OTFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA64E262419F8001F3FDB /* OTFConfig.swift */; };
+		909FA4B12B4BD51500B7B98C /* AppSysParameters.yml in Resources */ = {isa = PBXBuildFile; fileRef = 145143C826789AC700B58834 /* AppSysParameters.yml */; };
+		909FA4B22B4BD51800B7B98C /* OTFConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA65626241B72001F3FDB /* OTFConfigManager.swift */; };
+		909FA4B32B4BD51B00B7B98C /* HKSampleTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C9F9C266FA03C005A88E7 /* HKSampleTypes.swift */; };
+		909FA4B42B4BD51E00B7B98C /* OTFConfigManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C9FA1266FA061005A88E7 /* OTFConfigManagerProtocol.swift */; };
+		909FA4B52B4BD52200B7B98C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6A7262422E5001F3FDB /* Constants.swift */; };
+		909FA4B62B4BD52600B7B98C /* OTFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6C42624497A001F3FDB /* OTFError.swift */; };
+		909FA4B72B4BD52900B7B98C /* ColorStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC58E6262556E500A190E9 /* ColorStyler.swift */; };
+		909FA4B82B4BD52D00B7B98C /* FontStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AC58F426255B4B00A190E9 /* FontStyler.swift */; };
+		909FA4B92B4BD6FE00B7B98C /* YAMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FCA6BF26244797001F3FDB /* YAMLManager.swift */; };
 		AC023244981A665E8A09E850 /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */; };
 		CE482CBC262C24E800C0A2D5 /* OTFTemplateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE482CBB262C24E800C0A2D5 /* OTFTemplateBox.swift */; };
 		CE482CC6262C252F00C0A2D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE482CC5262C252F00C0A2D5 /* ContentView.swift */; };
@@ -50,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox_OTFTemplateBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		077A349C1B33BE635FFC9E93 /* Pods_OTFTemplateBoxWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBoxWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D45CFF8C93174DCC7D3A0DC /* Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		142F11A02626A5BB0045A5D2 /* AppSysParameters.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = AppSysParameters.yml; sourceTree = "<group>"; };
 		145143C826789AC700B58834 /* AppSysParameters.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = AppSysParameters.yml; sourceTree = "<group>"; };
@@ -71,16 +86,23 @@
 		14FCA6BF26244797001F3FDB /* YAMLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAMLManager.swift; sourceTree = "<group>"; };
 		14FCA6C42624497A001F3FDB /* OTFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFError.swift; sourceTree = "<group>"; };
 		14FCA6D3262455D1001F3FDB /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		24EBCC3955680DF7BDABADD9 /* Pods-OTFTemplateBoxWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBoxWatch.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBoxWatch/Pods-OTFTemplateBoxWatch.release.xcconfig"; sourceTree = "<group>"; };
 		663DC53BCAC4C0B13A13343D /* Pods-OTFTemplateBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.release.xcconfig"; sourceTree = "<group>"; };
+		663F5A253A57140B021F5234 /* Pods-Watchos Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watchos Watch App.debug.xcconfig"; path = "Target Support Files/Pods-Watchos Watch App/Pods-Watchos Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		76C8643DC915E822E1984E23 /* Pods-OTFTemplateBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox/Pods-OTFTemplateBox.debug.xcconfig"; sourceTree = "<group>"; };
+		7C58B36D85DF47DC7CE44DC0 /* Pods_Watchos_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Watchos_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDE41226EFD763000E7B5B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909FA4A62B4BD4B600B7B98C /* OTFTemplateBoxWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTFTemplateBoxWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909FA4A82B4BD4B600B7B98C /* OTFTemplateBoxWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFTemplateBoxWatch.h; sourceTree = "<group>"; };
+		A2DD24A01DC4DCFF07CAE7ED /* Pods-OTFTemplateBoxWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBoxWatch.debug.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBoxWatch/Pods-OTFTemplateBoxWatch.debug.xcconfig"; sourceTree = "<group>"; };
 		CE482CBA262C24E800C0A2D5 /* Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		CE482CBB262C24E800C0A2D5 /* OTFTemplateBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFTemplateBox.swift; sourceTree = "<group>"; };
 		CE482CC5262C252F00C0A2D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6DF67D917641D5AD820611C /* Pods_OTFTemplateBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFTemplateBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E904FC2017895FDCCA89B629 /* Pods-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.release.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.release.xcconfig"; sourceTree = "<group>"; };
 		F826B09300A1BE9037E02BA8 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; path = "Target Support Files/Pods-OTFTemplateBox-OTFTemplateBoxTests/Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA068A96E6493FF2119C8436 /* Pods-Watchos Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Watchos Watch App.release.xcconfig"; path = "Target Support Files/Pods-Watchos Watch App/Pods-Watchos Watch App.release.xcconfig"; sourceTree = "<group>"; };
 		FDC3701EAC706D6C97CF3D98 /* Pods-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApp.debug.xcconfig"; path = "Target Support Files/Pods-TestApp/Pods-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +132,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		909FA4A32B4BD4B600B7B98C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428ADC4F0914510D975A9B6F /* Pods_OTFTemplateBoxWatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -129,6 +159,7 @@
 				CE482CCB262C256300C0A2D5 /* Example_SwiftUI */,
 				14FCA62E262418E1001F3FDB /* OTFTemplateBox */,
 				14FCA639262418E1001F3FDB /* OTFTemplateBoxTests */,
+				909FA4A72B4BD4B600B7B98C /* OTFTemplateBoxWatch */,
 				14FCA62D262418E1001F3FDB /* Products */,
 				B1782EF8E14DADFC59F0C1F2 /* Pods */,
 				95D871C77ABADAB7CFB1D349 /* Frameworks */,
@@ -141,6 +172,7 @@
 				14FCA62C262418E1001F3FDB /* OTFTemplateBox.framework */,
 				14FCA635262418E1001F3FDB /* OTFTemplateBoxTests.xctest */,
 				14FCA68B26241F61001F3FDB /* TestApp.app */,
+				909FA4A62B4BD4B600B7B98C /* OTFTemplateBoxWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,12 +223,22 @@
 			path = YAML;
 			sourceTree = "<group>";
 		};
+		909FA4A72B4BD4B600B7B98C /* OTFTemplateBoxWatch */ = {
+			isa = PBXGroup;
+			children = (
+				909FA4A82B4BD4B600B7B98C /* OTFTemplateBoxWatch.h */,
+			);
+			path = OTFTemplateBoxWatch;
+			sourceTree = "<group>";
+		};
 		95D871C77ABADAB7CFB1D349 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E6DF67D917641D5AD820611C /* Pods_OTFTemplateBox.framework */,
 				0467CA31A310E34DFF0B52BF /* Pods_OTFTemplateBox_OTFTemplateBoxTests.framework */,
 				8DB17B8118E70F26876C4875 /* Pods_TestApp.framework */,
+				077A349C1B33BE635FFC9E93 /* Pods_OTFTemplateBoxWatch.framework */,
+				7C58B36D85DF47DC7CE44DC0 /* Pods_Watchos_Watch_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +252,10 @@
 				F826B09300A1BE9037E02BA8 /* Pods-OTFTemplateBox-OTFTemplateBoxTests.release.xcconfig */,
 				FDC3701EAC706D6C97CF3D98 /* Pods-TestApp.debug.xcconfig */,
 				E904FC2017895FDCCA89B629 /* Pods-TestApp.release.xcconfig */,
+				A2DD24A01DC4DCFF07CAE7ED /* Pods-OTFTemplateBoxWatch.debug.xcconfig */,
+				24EBCC3955680DF7BDABADD9 /* Pods-OTFTemplateBoxWatch.release.xcconfig */,
+				663F5A253A57140B021F5234 /* Pods-Watchos Watch App.debug.xcconfig */,
+				FA068A96E6493FF2119C8436 /* Pods-Watchos Watch App.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -232,6 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FCA63D262418E1001F3FDB /* OTFTemplateBox_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909FA4A12B4BD4B600B7B98C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FA4A92B4BD4B600B7B98C /* OTFTemplateBoxWatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,13 +351,32 @@
 			productReference = 14FCA68B26241F61001F3FDB /* TestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		909FA4A52B4BD4B600B7B98C /* OTFTemplateBoxWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909FA4AA2B4BD4B600B7B98C /* Build configuration list for PBXNativeTarget "OTFTemplateBoxWatch" */;
+			buildPhases = (
+				963B00A42E758D6FED56D6AF /* [CP] Check Pods Manifest.lock */,
+				909FA4A12B4BD4B600B7B98C /* Headers */,
+				909FA4A22B4BD4B600B7B98C /* Sources */,
+				909FA4A32B4BD4B600B7B98C /* Frameworks */,
+				909FA4A42B4BD4B600B7B98C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTFTemplateBoxWatch;
+			productName = OTFTemplateBoxWatch;
+			productReference = 909FA4A62B4BD4B600B7B98C /* OTFTemplateBoxWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		14FCA623262418E1001F3FDB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					14FCA62B262418E1001F3FDB = {
@@ -317,6 +390,9 @@
 					14FCA68A26241F61001F3FDB = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1240;
+					};
+					909FA4A52B4BD4B600B7B98C = {
+						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
@@ -336,6 +412,7 @@
 				14FCA68A26241F61001F3FDB /* TestApp */,
 				14FCA62B262418E1001F3FDB /* OTFTemplateBox */,
 				14FCA634262418E1001F3FDB /* OTFTemplateBoxTests */,
+				909FA4A52B4BD4B600B7B98C /* OTFTemplateBoxWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -365,11 +442,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		909FA4A42B4BD4B600B7B98C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FA4B12B4BD51500B7B98C /* AppSysParameters.yml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		144B3C6526A15C5400CF0E11 /* Lint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -402,6 +488,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OTFTemplateBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963B00A42E758D6FED56D6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTFTemplateBoxWatch-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -507,6 +615,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		909FA4A22B4BD4B600B7B98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909FA4AE2B4BD50700B7B98C /* String+Extensions.swift in Sources */,
+				909FA4B92B4BD6FE00B7B98C /* YAMLManager.swift in Sources */,
+				909FA4B22B4BD51800B7B98C /* OTFConfigManager.swift in Sources */,
+				909FA4B32B4BD51B00B7B98C /* HKSampleTypes.swift in Sources */,
+				909FA4B42B4BD51E00B7B98C /* OTFConfigManagerProtocol.swift in Sources */,
+				909FA4B72B4BD52900B7B98C /* ColorStyler.swift in Sources */,
+				909FA4B62B4BD52600B7B98C /* OTFError.swift in Sources */,
+				909FA4B02B4BD51200B7B98C /* OTFConfig.swift in Sources */,
+				909FA4AD2B4BD50300B7B98C /* Bundle+Extensions.swift in Sources */,
+				909FA4B52B4BD52200B7B98C /* Constants.swift in Sources */,
+				909FA4B82B4BD52D00B7B98C /* FontStyler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -575,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -633,7 +759,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -658,7 +784,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGETNAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -687,7 +813,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/$(TARGETNAME)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -789,6 +915,83 @@
 			};
 			name = Release;
 		};
+		909FA4AB2B4BD4B600B7B98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DD24A01DC4DCFF07CAE7ED /* Pods-OTFTemplateBoxWatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFTemplateBoxWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		909FA4AC2B4BD4B600B7B98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EBCC3955680DF7BDABADD9 /* Pods-OTFTemplateBoxWatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFTemplateBoxWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -824,6 +1027,15 @@
 			buildConfigurations = (
 				14FCA69D26241F62001F3FDB /* Debug */,
 				14FCA69E26241F62001F3FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909FA4AA2B4BD4B600B7B98C /* Build configuration list for PBXNativeTarget "OTFTemplateBoxWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909FA4AB2B4BD4B600B7B98C /* Debug */,
+				909FA4AC2B4BD4B600B7B98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

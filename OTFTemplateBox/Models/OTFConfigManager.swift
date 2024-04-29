@@ -41,7 +41,9 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
     private var configs = [OTFConfig]()
 
     public func getValue(for key: String) -> String? {
-        return configs.filter { $0.name == key }.first?.textValue
+        return configs.first(where: { $0.name == key })?.textValue
+//        return value?.textValue
+//        return configs.filter { $0.name == key }.first?.textValue
     }
 
     public func loadDataFromFile(_ bundle: Bundle? = nil) throws {
@@ -56,7 +58,10 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
             guard let string = String(data: data, encoding: .utf8) else {
                 throw OTFError.unableToConvertDataIntoString
             }
+#if os(iOS)
+
             self.configs = try YAMLManager.shared.decode([OTFConfig].self, from: string)
+#endif
         }
     }
 
@@ -129,6 +134,7 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
         }
         return nil
     }
+#if os(iOS)
 
     func testConfig() {
         OTFLog("====Start testing====")
@@ -169,4 +175,5 @@ public class OTFConfigManager: OTFConfigManagerProtocol {
         _ = FontStyler.caption2
         OTFLog("====End testing====")
     }
+    #endif
 }

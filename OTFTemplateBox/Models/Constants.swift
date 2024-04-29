@@ -34,10 +34,10 @@ OF SUCH DAMAGE.
 
 import Foundation
 
-struct Constants {
+enum Constants {
     static let sysConfigFileName = "AppSysParameters.yml"
 
-    struct TCMConfig {
+    enum TCMConfig {
         static let tintColorKey = "tintColor"
         static let homeTitleKey = "HomeTitle"
         static let settingTitleKey = "SettingTitle"
@@ -46,11 +46,11 @@ struct Constants {
         static let importDatabaseFromFileKey = "importDatabaseFromFile"
     }
 
-    struct ProtectionLevel {
+    enum ProtectionLevel {
         static let otfProtectionLevel = "otfProtectionLevel"
     }
 
-    struct HKPermission {
+    enum HKPermission {
         static let quantity = "HKQuantityTypeIdentifier"
         static let category = "HKCategoryTypeIdentifier"
         static let correlation = "HKCorrelationTypeIdentifier"
