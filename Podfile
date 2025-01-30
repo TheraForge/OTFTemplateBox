@@ -43,7 +43,7 @@ target 'OTFTemplateBox' do
   pod 'OTFCareKitUI', '2.0.2-beta.4'
   pod 'OTFToolBoxCore', '1.0.4-beta'
   pod 'OTFUtilities', '1.0.1-beta'
-  pod 'OTFDesignSystem', '1.0.0'
+  pod 'OTFDesignSystem', '1.0.0-beta'
   
   target 'OTFTemplateBoxTests' do
     # Pods for testing
