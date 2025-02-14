@@ -40,10 +40,10 @@ target 'OTFTemplateBox' do
   use_frameworks!
   platform :ios, '14.6'
   pod 'Yams' 
-  pod 'OTFCareKitUI', '2.0.2-beta.4'
-  pod 'OTFToolBoxCore', '1.0.4-beta'
-  pod 'OTFUtilities', '1.0.1-beta'
-  pod 'OTFDesignSystem', '1.0.0-beta'
+  pod 'OTFCareKitUI', '2.0.2-beta.5'
+  pod 'OTFToolBoxCore', '1.0.5-beta'
+  pod 'OTFUtilities', '1.0.2-beta'
+  pod 'OTFDesignSystem', '1.0.1-beta'
   
   target 'OTFTemplateBoxTests' do
     # Pods for testing
@@ -55,8 +55,8 @@ target 'OTFTemplateBoxWatch' do
   # Pods for testing
   use_frameworks!
   platform :watchos, '8.0'
-  pod 'OTFToolBoxCore', '1.0.4-beta'
-  pod 'OTFUtilities', '1.0.1-beta'
+  pod 'OTFToolBoxCore', '1.0.5-beta'
+  pod 'OTFUtilities', '1.0.2-beta'
 end
 
 target 'TestApp' do
