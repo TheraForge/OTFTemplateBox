@@ -1,4 +1,4 @@
-# Copyright (c) 2024, Hippocrates Technologies Sagl. All rights reserved.
+# Copyright (c) 2026, Hippocrates Technologies Sagl. All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
@@ -30,39 +30,36 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
 # OF SUCH DAMAGE.
 
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
 source 'https://cdn.cocoapods.org'
 source 'https://github.com/TheraForge/OTFCocoapodSpecs'
 
+use_frameworks!
+
 target 'OTFTemplateBox' do
-  use_frameworks!
-  platform :ios, '14.6'
-  pod 'Yams' 
-  pod 'OTFCareKitUI', '2.0.2-beta.5'
-  pod 'OTFToolBoxCore', '1.0.5-beta'
-  pod 'OTFUtilities', '1.0.2-beta'
-  pod 'OTFDesignSystem', '1.0.1-beta'
-  
+  inhibit_all_warnings!
+  platform :ios, '16.0'
+
+  pod 'Yams'
+  pod 'OTFUtilities', '2.0.0'
+
   target 'OTFTemplateBoxTests' do
     # Pods for testing
   end
-
-end
-
-target 'OTFTemplateBoxWatch' do
-  # Pods for testing
-  use_frameworks!
-  platform :watchos, '8.0'
-  pod 'OTFToolBoxCore', '1.0.5-beta'
-  pod 'OTFUtilities', '1.0.2-beta'
 end
 
 target 'TestApp' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+  inhibit_all_warnings!
+  platform :ios, '16.0'
+end
 
-  # Pods for TestApp
-
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        if target.platform_name == :ios
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+        end
+      end
+    end
+  end
 end
